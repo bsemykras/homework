@@ -7,7 +7,7 @@ function UrlError(status,message){
     this.status =status;
     this.message =message;
 }
- 
+
 util.inherits(UrlError,Error);
 UrlError.prototype.name ="UrlError";
 UrlError.prototype.ShowMessage =function()
